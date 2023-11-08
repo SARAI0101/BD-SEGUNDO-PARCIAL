@@ -13,7 +13,7 @@ $id = $_GET ['id'];
 </head>
 <body>
     <h3>¿Deseas eliminar el registro?</h3>
-    <a href="confirmar_eliminacion.php?id=<?php echo $id; ?>">Si, confrimar</a>
+    <a href="confirmar_eliminacion.php?id=<?php echo $id; ?>">Si, confirmar</a>
     <a href="../">No, regresar</a>
 </body>
 </html>

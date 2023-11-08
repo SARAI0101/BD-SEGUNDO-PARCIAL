@@ -1,3 +1,7 @@
+<?php
+require_once '../lib/conexion.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

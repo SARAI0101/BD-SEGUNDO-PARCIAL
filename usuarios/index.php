@@ -42,7 +42,7 @@ require_once '../lib/conexion.php';
             <td><?php echo $row['addres'] . ", " . $row['city'] . ", " . $row['state']; ?></td>
             <td style="white-space: nowrap;">
             <a href="detalle.php?id=<?php echo $row['id']?>" class="btn btn-success">Detalles</a>
-                <a href="#" class="btn btn-warning">Editar</a>
+                <a href="editar.php?id=<?php echo $row['id']?>" class="btn btn-warning">Editar</a>
                 <a href="actions/eliminar.php?id=<?php echo $row['id']?>" class="btn btn-danger">Eliminar</a>
             </td>
         </tr>
