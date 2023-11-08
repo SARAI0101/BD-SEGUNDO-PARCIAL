@@ -43,7 +43,7 @@ require_once '../lib/conexion.php';
             <td style="white-space: nowrap;">
             <a href="detalle.php?id=<?php echo $row['id']?>" class="btn btn-success">Detalles</a>
                 <a href="#" class="btn btn-warning">Editar</a>
-                <a href="#" class="btn btn-danger">Eliminar</a>
+                <a href="actions/eliminar.php?id=<?php echo $row['id']?>" class="btn btn-danger">Eliminar</a>
             </td>
         </tr>
         <?php } ?>
